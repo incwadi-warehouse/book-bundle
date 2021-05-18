@@ -6,7 +6,7 @@ use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Query\Expr\Andx;
 use Incwadi\Core\Entity\Book;
 
-class Find
+class Find implements FindInterface
 {
     /**
      * @var int

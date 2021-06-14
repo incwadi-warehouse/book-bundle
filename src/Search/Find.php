@@ -46,7 +46,7 @@ class Find implements FindInterface
         $qb->leftJoin('b.author', 'a');
         $qb->leftJoin('b.tags', 't');
         $qb->leftJoin('b.genre', 'g');
-        $qb->distinct();
+        // $qb->distinct();
 
         if (isset($options['term']) || isset($options['filter'])) {
             $qb->where(

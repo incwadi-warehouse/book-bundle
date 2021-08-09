@@ -4,7 +4,7 @@ namespace Baldeweg\Bundle\BookBundle\Search;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Query\Expr\Andx;
-use Incwadi\Core\Entity\Book;
+use App\Entity\Book;
 
 class Find implements FindInterface
 {
